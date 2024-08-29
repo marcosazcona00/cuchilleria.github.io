@@ -45,7 +45,7 @@ ul li {
 
 .img-container {
   height: 100vh;
-  max-height: 60vh;
+  max-height: 40vh;
   display: flex;
   align-items: center; /* Centra verticalmente */
   justify-content: center; /* Centra horizontalmente */
