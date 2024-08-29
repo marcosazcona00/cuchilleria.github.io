@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.1rem;
+}
+
+nav {
+  background-color: #efe9d8;
+}
+
+ul  {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+.container {
+  margin: auto; /* Con el margin auto el navegador se adapta al max-width */
+  max-width: 88vw;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    max-height: 8vh;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.img-container {
+  height: 100vh;
+  max-height: 60vh;
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  position: relative; /* Posicion relativa para que el que tiene posicion absolute se acople */
+}
+
+.full-img {
+    height: 100%; 
+    width: 100%;
+    filter: brightness(0.9);
+}
+
+.centered-text {
+    position: absolute;
+    text-align: center;
+}
+
+.card-container {
+  border: solid;
+  border-radius: 0.8em;
+  display: flex;
+  height: 8vh;
+  max-width: 22vw;
+} 
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer {
+  max-height: 30vh;
+  height: 100vh;
+  background-color: black;
+}
